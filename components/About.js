@@ -2,10 +2,11 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div className="flex items-center w-full p-2 py-16 md:h-screen">
+    <div className="flex w-full p-2 py-16 items-right md:h-screen">
         <div className="max-w-[1024px] m-auto md:grid grid-cols-3 gap-8">
        
             <div className="col-span-2 text-gray-600">
+            <h3 className="text-xl uppercase -tracking-widest " > About </h3>
             <h2 className="mb-4 p-4 text-[#5651e5] tracking-widest " >How I Am</h2>
             <p>I am not a normal developer. </p>
             <p> I spent the five years after graduation as a civil engineer, 
@@ -18,12 +19,16 @@ const About = () => {
             <p>I started my journey at ASAC. During six months of camp, I learned good enough languages, libraries, and frameworks to be
                  a joiner full-stack web developer such as  HTML, CSS, vanilla JS, python, Django,  dealing with a database, React, 
                  and Next js.</p>
-                 <p className="pt-4">Check out some of my projects</p>
+                 <p className="py-2 pt-4 underline cursor-pointer">Check out some of my projects</p>
             </div>
-            
+            {/* <div className='flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-xl shadow-gray-400 rounded-xl hover:scale-105'>
+                <Image src='/../public/assets/personalpic.jpg'  width='400' height='400' className='rounded-xl '/>
+            </div> */}
            
           
         </div>
+       
+        
     </div>
   )
 }

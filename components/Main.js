@@ -36,9 +36,7 @@ const Main = () => {
                     <RiContactsFill size={25}/> 
                     </div>
                     </div>
-                <div>
-                  <Image src='/../public/assets/personalpic.jpg'  width='125' height='80' className='h-auto max-w-full rounded-full' />
-                </div>
+               
                 </div>
                 
             </div>
