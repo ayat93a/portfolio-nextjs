@@ -135,6 +135,17 @@ const Skills = () => {
             <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105 sm:shadow-md ">
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                 <div className="m-auto">
+                  <Image src='/../public/skills/docker.jpg' width='64px' height='64px' />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Docker</h3>
+                </div> 
+              </div>
+            </div>
+
+            <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105 sm:shadow-md ">
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+                <div className="m-auto">
                   <Image src='/../public/skills/wordpress.jpg' width='64px' height='64px' className="rounded-full" />
                 </div>
                 <div className="flex flex-col items-center justify-center">
