@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div className="w-full p-2 lg:h-screen">
         <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-            <p className="text-xl tracking-widest uppercase ">Skills</p>
+            <p className="text-xl tracking-widest text-gray-600 uppercase">Skills</p>
             <h2 className="text-[#5651e5] p-4"> What I Can Do</h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 ">
             
@@ -128,6 +128,17 @@ const Skills = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3>Github</h3>
+                </div> 
+              </div>
+            </div>
+
+            <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105 sm:shadow-md ">
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+                <div className="m-auto">
+                  <Image src='/../public/skills/wordpress.jpg' width='64px' height='64px' className="rounded-full" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>WordPress</h3>
                 </div> 
               </div>
             </div>

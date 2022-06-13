@@ -18,7 +18,7 @@ const Navbar = () => {
 
     
   return (
-    <div className='fixed w-full h-20 shadow-xl z-[100]'>
+    <div className='fixed w-full h-20 shadow-xl z-[100] '>
         <div className='flex items-center justify-between h-full px-2 x-full 2xl:px-16 '>
             {/*  2xl:px-16 media query*/}
             <Image src='/../public/assets/ayat.png'  width='125' height='80' className='h-auto max-w-full rounded-full' />
