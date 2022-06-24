@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full' id='Projects'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest text-gray-600 uppercase'>Projects</p>
             <h2 className='py-4 text-[#5651e5]'>What I Have Built </h2>

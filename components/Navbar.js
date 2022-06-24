@@ -27,13 +27,13 @@ const Navbar = () => {
                 <Link href = '/'>
                     <li className='ml-10 text-sm uppercase hover:border-b '> home </li>
                 </Link>
-                <Link href = '/'>
+                <Link href = '/#About'>
                     <li className='ml-10 text-sm uppercase hover:border-b '> About </li>
                 </Link>
-                <Link href = '/'>
+                <Link href = '/#Skills'>
                     <li className='ml-10 text-sm uppercase hover:border-b '> Skills </li>
                 </Link>
-                <Link href = '/'>
+                <Link href = '/#Projects'>
                     <li className='ml-10 text-sm uppercase hover:border-b '> Projects </li>
                 </Link>
                 <Link href = '/'> 
