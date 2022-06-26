@@ -7,7 +7,8 @@ import {FaLinkedinIn} from 'react-icons/fa'
 import {MdOutlineMail} from 'react-icons/md'
 import {RiContactsFill} from 'react-icons/ri'
 import {SiHashnode} from 'react-icons/si'
-
+import {BsSlack} from 'react-icons/bs'
+import ayat from '../public/assets/ayat.png'
 
 const Navbar = () => {
     const [nav , setNav] = useState(false)
@@ -18,29 +19,29 @@ const Navbar = () => {
 
     
   return (
-    <div className='fixed w-full h-20 shadow-xl z-[100] '>
+    <div className='fixed w-full h-20 shadow-xl z-[100] bg-[#ecf0f3]'>
         <div className='flex items-center justify-between h-full px-2 x-full 2xl:px-16 '>
             {/*  2xl:px-16 media query*/}
-            <Image src='/../public/assets/ayat.png'  width='125' height='80' className='h-auto max-w-full rounded-full' />
+            <Image src={ayat}  width='125' height='80' className='h-auto max-w-full rounded-full' />
         <div>
-            <ul className='hidden md:flex'>
+            <ul className='hidden md:flex '>
                 <Link href = '/'>
-                    <li className='ml-10 text-sm uppercase hover:border-b '> home </li>
+                    <li className='my-4 ml-10 text-sm uppercase duration-300 ease-in border-b hover:border-b hover:scale-105'> home </li>
                 </Link>
                 <Link href = '/#About'>
-                    <li className='ml-10 text-sm uppercase hover:border-b '> About </li>
+                    <li className='my-4 ml-10 text-sm uppercase duration-300 ease-in border-b hover:border-b hover:scale-105'> About </li>
                 </Link>
                 <Link href = '/#Skills'>
-                    <li className='ml-10 text-sm uppercase hover:border-b '> Skills </li>
+                    <li className='my-4 ml-10 text-sm uppercase duration-300 ease-in border-b hover:border-b hover:scale-105'> Skills </li>
                 </Link>
                 <Link href = '/#Projects'>
-                    <li className='ml-10 text-sm uppercase hover:border-b '> Projects </li>
+                    <li className='my-4 ml-10 text-sm uppercase duration-300 ease-in border-b hover:border-b hover:scale-105'> Projects </li>
                 </Link>
                 <Link href = '/'> 
-                    <li className='ml-10 text-sm uppercase hover:border-b '> Contact </li>
+                    <li className='my-4 ml-10 text-sm uppercase duration-300 ease-in border-b hover:border-b hover:scale-105'> Contact </li>
                 </Link>
             </ul>
-            <div onClick={handelNav} className='cursor-pointer md:hidden'>
+            <div onClick={handelNav} className='my-4 duration-300 ease-in border-b cursor-pointer md:hidden hover:scale-105'>
                 <AiOutlineMenu size={25}/>
             </div>
         </div>
@@ -66,39 +67,53 @@ const Navbar = () => {
             <div className='flex flex-col p-4'>
                 <ul className='uppercase'>
                  <Link href='/'>
-                 <li className='py-4 text-sm'>Home</li>
+                 <li className='py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105'>Home</li>
+                 </Link>
+                 <Link href='/#About'>
+                 <li className='py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105'>About</li>
+                 </Link>
+                 <Link href='/#Skills'>
+                 <li className='py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105'>Skills</li>
+                 </Link>
+                 <Link href='/#Projects'>
+                 <li className='py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105'>Projects</li>
                  </Link>
                  <Link href='/'>
-                 <li className='py-4 text-sm'>About</li>
-                 </Link>
-                 <Link href='/'>
-                 <li className='py-4 text-sm'>Skills</li>
-                 </Link>
-                 <Link href='/'>
-                 <li className='py-4 text-sm'>Projects</li>
-                 </Link>
-                 <Link href='/'>
-                 <li className='py-4 text-sm'>Contact</li>
+                 <li className='py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105'>Contact</li>
                  </Link>
                 </ul>
                 <div className='pt=40'>
                     <p className='uppercase tracking-widest text-[#5651e5] pt-10'>Lets Connect</p>
                     <div  className='flex items-left justify-between my-4  w-full sm:w-[80%]'>
+                    
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
-                        <FaLinkedinIn size={25} />
+                    <a href="https://www.linkedin.com/in/ayat-albqoor/" target="_blank">
+                        <FaLinkedinIn size={25} /></a>
                     </div>
+                    
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
+                    <a href="https://github.com/ayat93a" target="_blank">
                     <AiOutlineGithub size={25}/>
+                    </a>
                     </div>
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
+                    <a href="https://ayat.hashnode.dev/" target="_blank">
                     <SiHashnode size={25}/> 
+                    </a>
                     </div>
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
+                    <a href="mailto:alkayedayat93@gmail.com" target="_blank">
                     <MdOutlineMail size={25}/> 
+                    </a>
                     </div>
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
+                    
+                    <a href="https://wa.link/uxuma0" target="_blank">
                     <RiContactsFill size={25}/> 
+                    </a>
                     </div>
+                   
+                    
                     </div>
                 </div>
             </div>

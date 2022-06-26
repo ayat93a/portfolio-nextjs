@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div className="w-full p-2 lg:h-screen" id='Skills'>
         <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-            <p className="text-xl tracking-widest text-gray-600 uppercase">Skills</p>
+            <p className="pt-8 text-xl tracking-widest text-gray-600 uppercase">Skills</p>
             <h2 className="text-[#5651e5] p-4"> What I Can Do</h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 ">
             

@@ -4,6 +4,7 @@ import {FaLinkedinIn} from 'react-icons/fa'
 import {MdOutlineMail} from 'react-icons/md'
 import {RiContactsFill} from 'react-icons/ri'
 import {SiHashnode} from 'react-icons/si'
+import { BsSlack } from 'react-icons/bs'
 
 const Main = () => {
   return (
@@ -21,20 +22,32 @@ const Main = () => {
            
                     <div  className='flex items-center justify-between my-4  max-w-[330px] m-auto '>
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
+                    <a href="https://www.linkedin.com/in/ayat-albqoor/" target="_blank">
                         <FaLinkedinIn size={25} />
+                        </a>
                     </div>
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
+                    <a href="https://github.com/ayat93a" target="_blank">
                     <AiOutlineGithub size={25}/>
+                    </a>
                     </div>
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
+                    <a href="https://ayat.hashnode.dev/" target="_blank">
                     <SiHashnode size={25}/> 
+                    </a>
                     </div>
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
+                    <a href="mailto:alkayedayat93@gmail.com" target="_blank">
                     <MdOutlineMail size={25}/> 
+                    </a>
                     </div>
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
+                      <a href="https://wa.link/uxuma0" target="_blank">
                     <RiContactsFill size={25}/> 
+                    </a>
                     </div>
+
+                    
                     </div>
                
                 </div>
