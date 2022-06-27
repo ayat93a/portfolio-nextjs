@@ -7,7 +7,6 @@ import {FaLinkedinIn} from 'react-icons/fa'
 import {MdOutlineMail} from 'react-icons/md'
 import {RiContactsFill} from 'react-icons/ri'
 import {SiHashnode} from 'react-icons/si'
-import {BsSlack} from 'react-icons/bs'
 import ayat from '../public/assets/ayat.png'
 
 const Navbar = () => {
@@ -22,7 +21,7 @@ const Navbar = () => {
     <div className='fixed w-full h-20 shadow-xl z-[100] bg-[#ecf0f3]'>
         <div className='flex items-center justify-between h-full px-2 x-full 2xl:px-16 '>
             {/*  2xl:px-16 media query*/}
-            <Image src={ayat}  width='125' height='80' className='h-auto max-w-full rounded-full' />
+            <Image src={ayat} alt=''  width='125' height='80' className='h-auto max-w-full rounded-full' />
         <div>
             <ul className='hidden md:flex '>
                 <Link href = '/'>
@@ -54,7 +53,7 @@ const Navbar = () => {
             <div>
                 <div className='flex items-center justify-between w-full '>
                     <Link href='/' >
-                <Image src='/../public/assets/ayat.png'  width='87' height='35' className='h-auto max-w-full rounded-full' />
+                <Image src={ayat}  alt='' width='87' height='35' className='h-auto max-w-full rounded-full' />
                     </Link>
                 <div onClick={handelNav} className='p-3 rounded-full shadow-lg cursor-pointer shadow-gray-400 '>
                     <AiOutlineClose />
@@ -87,28 +86,28 @@ const Navbar = () => {
                     <div  className='flex items-left justify-between my-4  w-full sm:w-[80%]'>
                     
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
-                    <a href="https://www.linkedin.com/in/ayat-albqoor/" target="_blank">
+                    <a href="https://www.linkedin.com/in/ayat-albqoor/" target="_blank" rel="noreferrer">
                         <FaLinkedinIn size={25} /></a>
                     </div>
                     
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
-                    <a href="https://github.com/ayat93a" target="_blank">
+                    <a href="https://github.com/ayat93a" target="_blank" rel="noreferrer">
                     <AiOutlineGithub size={25}/>
                     </a>
                     </div>
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
-                    <a href="https://ayat.hashnode.dev/" target="_blank">
+                    <a href="https://ayat.hashnode.dev/" target="_blank" rel="noreferrer">
                     <SiHashnode size={25}/> 
                     </a>
                     </div>
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
-                    <a href="mailto:alkayedayat93@gmail.com" target="_blank">
+                    <a href="mailto:alkayedayat93@gmail.com" target="_blank" rel="noreferrer">
                     <MdOutlineMail size={25}/> 
                     </a>
                     </div>
                     <div className='duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 '>
                     
-                    <a href="https://wa.link/uxuma0" target="_blank">
+                    <a href="https://wa.link/uxuma0" target="_blank" rel="noreferrer">
                     <RiContactsFill size={25}/> 
                     </a>
                     </div>
