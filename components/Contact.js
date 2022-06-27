@@ -2,20 +2,20 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='h-20 shadow-xl z-[100] bg-[#ecf0f3]'>
-        <id className='.flex-grow ' id='contact'>
-        <footer class="text-center bg-[#ecf0f3] text-[#1f2937]">
-  <div class="container px-6 pt-6">
+    <div classNameName='h-20 shadow-xl z-[100] bg-[#ecf0f3]'>
+        <id classNameName='.flex-grow ' id='contact'>
+        <footer className="text-center bg-[#ecf0f3] text-[#1f2937]">
+  <div className="container px-6 pt-6">
     
 
       
 
-      <a href="mailto:alkayedayat93@gmail.com" target="_blank" rel="noreferrer" type="button" class="rounded-full border-2 border-[#1f2937] text-[#1f2937] leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="mailto:alkayedayat93@gmail.com" target="_blank" rel="noreferrer" type="button" className="rounded-full border-2 border-[#1f2937] text-[#1f2937] leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
           data-icon="google"
-          class="w-3 h-full mx-auto"
+          className="w-3 h-full mx-auto"
           role="img"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 488 512"
@@ -29,12 +29,12 @@ const Contact = () => {
 
       
 
-      <a href="https://www.linkedin.com/in/ayat-albqoor/" target="_blank" rel="noreferrer" type="button" class="rounded-full border-2 border-[#1f2937] text-[#1f2937] leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="https://www.linkedin.com/in/ayat-albqoor/" target="_blank" rel="noreferrer" type="button" className="rounded-full border-2 border-[#1f2937] text-[#1f2937] leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
         data-icon="linkedin-in"
-          class="w-3 h-full mx-auto"
+          className="w-3 h-full mx-auto"
           role="img"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512"
@@ -46,12 +46,12 @@ const Contact = () => {
         </svg>
       </a>
 
-      <a href="https://github.com/ayat93a" target="_blank" rel="noreferrer" type="button" class="rounded-full border-2 border-[#1f2937] text-[#1f2937] leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+      <a href="https://github.com/ayat93a" target="_blank" rel="noreferrer" type="button" className="rounded-full border-2 border-[#1f2937] text-[#1f2937] leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
         data-icon="github"
-          class="w-3 h-full mx-auto"
+          className="w-3 h-full mx-auto"
           role="img"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 496 512"
@@ -65,9 +65,9 @@ const Contact = () => {
     </div>
   
 
-  <div class="text-center p-4" className="background-color: rgba(0, 0, 0, 0.2);">
+  <div className="p-4 text-center" classNameName="background-color: rgba(0, 0, 0, 0.2);">
     © 2022 Copyright:
-    <a className='pb-4'>Dev Ayat AlBqour</a>
+    <a classNameName='pb-4'>Dev Ayat AlBqour</a>
   </div>
 </footer>
         </id>
