@@ -189,7 +189,7 @@ const Projects = () => {
                       Technology: Django Framework
                       </p>
                     <div className="items-center pt-12 space-x-6">
-                    <a href="https://github.com/ayat93a/blog" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/ayat93a/book_shop" target="_blank" rel="noreferrer">
                     <button type="button" className=" px-7 py-2.5 bg-blue-600 text-white hover:scale-105 font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">GitHub</button>
                     </a>
                     </div>
