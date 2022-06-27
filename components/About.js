@@ -19,7 +19,7 @@ const About = () => {
             <p>I started my journey at ASAC. During six months of camp, I learned good enough languages, libraries, and frameworks to be
                  a joiner full-stack web developer such as  HTML, CSS, vanilla JS, python, Django,  dealing with a database, React, 
                  and Next js.</p>
-                 <p className="py-2 pt-4 underline cursor-pointer"> <a href="https://github.com/ayat93a" target="_blank">
+                 <p className="py-2 pt-4 underline cursor-pointer"> <a href="https://github.com/ayat93a" target="_blank" rel="noreferrer">
                   Check out some of my projects </a></p>
             </div>
             {/* <div className='flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-xl shadow-gray-400 rounded-xl hover:scale-105'>
