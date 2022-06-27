@@ -11,7 +11,7 @@ const Main = () => {
     <div className="w-full h-screen text-center">
         <div className="max-w-[1024px] w-full h-full mx-auto p-2 flex justify-center items-center ">
             <div>
-                <p className="text-sm tracking-widest text-gray-600 "> HEY THERE!, I"m </p>
+                <p className="text-sm tracking-widest text-gray-600 "> HEY THERE!, I&apos;m </p>
             <h1 className="text-[#5651e5] mb-3"> Ayat AlBqour</h1>
             <h1 className="text-sm tracking-widest text-gray-600 uppercase"> full stack web developer </h1>
             <p className="py-4 text-gray-600 max-w-[70%] m-auto"> I am a junior full-stack web developer who graduated recently from ASAC. I am passionate 
