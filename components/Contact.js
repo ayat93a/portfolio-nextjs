@@ -2,9 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div classNameName='h-20 shadow-xl z-[100] bg-[#ecf0f3]'>
+    <div classNameName='h-20 '>
         <id classNameName='.flex-grow ' id='contact'>
-        <footer className="text-center bg-[#ecf0f3] text-[#1f2937]">
+        <footer className="text-center bg-gray-200 text-[#1f2937] shadow-xl z-[100] ">
   <div className="container px-6 pt-6">
     
 
