@@ -15,8 +15,8 @@ import movie from "../public/assets/movie.webp"
 
 const Projects = () => {
   return (
-    <div className="w-full h-screen " id="Projects">
-        <div className="max-w-[1240px] mx-auto px-2 py-24">
+    <div className="w-full " id="Projects">
+        <div className="max-w-[1240px] mx-auto px-1 py-24">
             <h2 className=" text-[#5651e5]">What I Have Built </h2>
             <p className="p-4 text-xl">Full Projects</p>
             <div className="grid gap-2 lg:grid-cols-4 md:grid-cols-2">
@@ -105,7 +105,7 @@ const Projects = () => {
                       Technology: Nextjs ,responsive design by Tailwind
                     </p>
                     <div className="items-center pt-32 space-x-6">
-                    <a href="https://github.com/ayat93a/AI_Traffic_system" target="_blank" rel="noreferrer">
+                    <a href="https://myportfolio-drab-six.vercel.app/" target="_blank" rel="noreferrer">
                     <button type="button" className=" px-7 py-2.5 bg-blue-600 text-white hover:scale-105 font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Deploy</button>
                     </a>
                     <a href="https://github.com/ayat93a/portfolio-nextjs" target="_blank" rel="noreferrer">

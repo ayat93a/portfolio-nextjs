@@ -36,7 +36,7 @@ const Navbar = () => {
                 <Link href = "/#Projects">
                     <li className="my-4 ml-10 text-sm uppercase duration-300 ease-in border-b hover:border-b hover:scale-105"> Projects </li>
                 </Link>
-                <Link href = "/"> 
+                <Link href = "/#contact"> 
                     <li className="my-4 ml-10 text-sm uppercase duration-300 ease-in border-b hover:border-b hover:scale-105"> Contact </li>
                 </Link>
             </ul>
@@ -77,7 +77,7 @@ const Navbar = () => {
                  <Link href="/#Projects">
                  <li className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">Projects</li>
                  </Link>
-                 <Link href="/">
+                 <Link href="/#contact">
                  <li className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">Contact</li>
                  </Link>
                 </ul>
