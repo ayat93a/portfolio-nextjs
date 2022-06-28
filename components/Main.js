@@ -4,7 +4,7 @@ import {FaLinkedinIn} from "react-icons/fa"
 import {MdOutlineMail} from "react-icons/md"
 import {RiContactsFill} from "react-icons/ri"
 import {SiHashnode} from "react-icons/si"
-
+import {BsFileEarmarkPdf} from 'react-icons/bs'
 
 const Main = () => {
   return (
@@ -44,6 +44,11 @@ const Main = () => {
                     <div className="duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 ">
                       <a href="https://wa.link/uxuma0" target="_blank" rel="noreferrer">
                     <RiContactsFill size={25}/> 
+                    </a>
+                    </div>
+                    <div className="duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 ">
+                      <a href="https://drive.google.com/file/d/1Vv8nH3qeEmEe_rideBk1ztH5RCeqO7F3/view?usp=sharing" target="_blank" rel="noreferrer">
+                    <BsFileEarmarkPdf size={25}/> 
                     </a>
                     </div>
 

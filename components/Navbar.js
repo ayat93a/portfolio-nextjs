@@ -7,6 +7,7 @@ import {FaLinkedinIn} from "react-icons/fa"
 import {MdOutlineMail} from "react-icons/md"
 import {RiContactsFill} from "react-icons/ri"
 import {SiHashnode} from "react-icons/si"
+import {BsFileEarmarkPdf} from 'react-icons/bs'
 import ayat from "../public/assets/ayat.png"
 
 const Navbar = () => {
@@ -36,9 +37,15 @@ const Navbar = () => {
                 <Link href = "/#Projects">
                     <li className="my-4 ml-10 text-sm uppercase duration-300 ease-in border-b hover:border-b hover:scale-105"> Projects </li>
                 </Link>
+                <Link href = "https://drive.google.com/file/d/1Vv8nH3qeEmEe_rideBk1ztH5RCeqO7F3/view?usp=sharing" > 
+                    <a target="_blank" rel="noreferrer">
+                    <li className="my-4 ml-10 text-sm uppercase duration-300 ease-in border-b hover:border-b hover:scale-105"> Resume </li>    
+                    </a>
+                </Link>
                 <Link href = "/#contact"> 
                     <li className="my-4 ml-10 text-sm uppercase duration-300 ease-in border-b hover:border-b hover:scale-105"> Contact </li>
                 </Link>
+                
             </ul>
             <div onClick={handelNav} className="my-4 duration-300 ease-in border-b cursor-pointer md:hidden hover:scale-105">
                 <AiOutlineMenu size={25}/>
@@ -109,6 +116,12 @@ const Navbar = () => {
                     
                     <a href="https://wa.link/uxuma0" target="_blank" rel="noreferrer">
                     <RiContactsFill size={25}/> 
+                    </a>
+                    </div>
+                    <div className="duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 ">
+                    
+                    <a href="https://drive.google.com/file/d/1Vv8nH3qeEmEe_rideBk1ztH5RCeqO7F3/view?usp=sharing" target="_blank" rel="noreferrer">
+                    <BsFileEarmarkPdf size={25}/> 
                     </a>
                     </div>
                    
