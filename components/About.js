@@ -17,7 +17,7 @@ const About = () => {
             <p>After these five years, I decided to encourage myself to be brave and follow my childhood dreams of being a programmer.</p>
             <p>I have a funny story about that dream. </p>
             <p>I started my journey at ASAC. During six months of camp, I learned good enough languages, libraries, and frameworks to be
-                 a joiner full-stack web developer such as  HTML, CSS, vanilla JS, python, Django,  dealing with a database, React, 
+                 a joiner full-stack web developer such as  HTML, CSS, vanilla JS, python, Django,  dealing with a database,Node js, React, 
                  and Next js.</p>
                  <p className="py-2 pt-4 underline cursor-pointer"> <a href="https://github.com/ayat93a" target="_blank" rel="noreferrer">
                   Check out some of my projects </a></p>

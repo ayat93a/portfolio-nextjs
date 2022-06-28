@@ -12,6 +12,7 @@ import postgress from "../public/skills/postgres.png"
 import github from "../public/skills/github.png"
 import docker from "../public/skills/docker.jpg"
 import wordpress from "../public/skills/wordpress.jpg"
+import node from '../public/assets/nodejs.jpg'
 
 const Skills = () => {
   return (
@@ -118,7 +119,19 @@ const Skills = () => {
                   <Image src={next} alt="/" width="64px" height="64px"  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>Next </h3>
+                  <h3>Next</h3>
+                </div> 
+              </div>
+            </div>
+
+
+            <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105 sm:shadow-md ">
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+                <div className="m-auto">
+                  <Image src={node} alt="/" width="64px" height="64px"  />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Node </h3>
                 </div> 
               </div>
             </div>
