@@ -73,19 +73,19 @@ const Navbar = () => {
             <div className="flex flex-col p-4">
                 <ul className="uppercase">
                  <Link href="/">
-                 <li className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">Home</li>
+                 <li onClick={() => setNav(false)} className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">Home</li>
                  </Link>
                  <Link href="/#About">
-                 <li className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">About</li>
+                 <li onClick={() => setNav(false)} className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">About</li>
                  </Link>
                  <Link href="/#Skills">
-                 <li className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">Skills</li>
+                 <li onClick={() => setNav(false)} className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">Skills</li>
                  </Link>
                  <Link href="/#Projects">
-                 <li className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">Projects</li>
+                 <li onClick={() => setNav(false)} className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">Projects</li>
                  </Link>
                  <Link href="/#contact">
-                 <li className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">Contact</li>
+                 <li onClick={() => setNav(false)} className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">Contact</li>
                  </Link>
                 </ul>
                 <div className="pt=40">
