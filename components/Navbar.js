@@ -75,7 +75,7 @@ const Navbar = () => {
                  <Link href="/">
                  <li onClick={() => setNav(false)} className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">Home</li>
                  </Link>
-                 <Link href="/#About">
+                 <Link href="/#About" >
                  <li onClick={() => setNav(false)} className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">About</li>
                  </Link>
                  <Link href="/#Skills">
