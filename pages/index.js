@@ -5,7 +5,7 @@ import About from "../components/About"
 import Skills from "../components/Skills"
 import Projects from "../components/Projects"
 import Contact from "../components/Contact"
-import Contactme from "../components/ayat"
+
 
 
 
@@ -24,7 +24,6 @@ export default function Home() {
       <Skills/>
       <Projects/>
       <Contact />
-      <Contactme />
 
     </div>
   )
