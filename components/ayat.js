@@ -1,5 +1,4 @@
 
-import emailjs from '@emailjs/browser';
 
 const Contactme = () => {
   function sendEmail (e){
@@ -27,8 +26,7 @@ const Contactme = () => {
       />
       <link href="assets/css/style.css" rel="stylesheet" />
 
-      <Navbar />
-
+     
       <main id="main">
         {/* ======= Breadcrumbs ======= */}
         <div className="breadcrumbs">
@@ -133,7 +131,7 @@ const Contactme = () => {
       </main>
       {/* End #main */}
 
-      <Footer />
+      <div />
     </>
   );
 };
