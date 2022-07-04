@@ -1,5 +1,4 @@
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+
 import emailjs from '@emailjs/browser';
 
 const Contactme = () => {
