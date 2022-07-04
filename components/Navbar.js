@@ -72,9 +72,9 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col p-4">
                 <ul className="uppercase">
-                 <Link href="/">
+                 <Link href="/"><a href="/">
                  <li onClick={() => setNav(false)} className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">Home</li>
-                 </Link>
+                 </a></Link>
                  <Link href="/#About">
                  <li onClick={() => setNav(false)} className="py-4 my-4 text-sm duration-300 ease-in border-b hover:scale-105">About</li>
                  </Link>
