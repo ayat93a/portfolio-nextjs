@@ -47,7 +47,7 @@ const Main = () => {
                     </a>
                     </div>
                     <div className="duration-150 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-500 hover:scale-150 ">
-                      <a href="https://drive.google.com/file/d/1Vv8nH3qeEmEe_rideBk1ztH5RCeqO7F3/view?usp=sharing" target="_blank" rel="noreferrer">
+                      <a href="https://drive.google.com/file/d/1XQEDs3y_wpkPh80kGBN0KoYIMz_IY8hV/view?usp=sharing" target="_blank" rel="noreferrer">
                     <BsFileEarmarkPdf size={25}/> 
                     </a>
                     </div>
