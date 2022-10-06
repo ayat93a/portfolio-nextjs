@@ -13,6 +13,7 @@ import github from "../public/skills/github.png"
 import docker from "../public/skills/docker.jpg"
 import wordpress from "../public/skills/wordpress.jpg"
 import node from '../public/assets/nodejs.jpg'
+import aws from '../public/assets/aws.png'
 
 const Skills = () => {
   return (
@@ -176,6 +177,17 @@ const Skills = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3>WordPress</h3>
+                </div> 
+              </div>
+            </div>
+
+            <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105 sm:shadow-md ">
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+                <div className="pt-1 m-auto">
+                  <Image src={aws} alt="/" width="64px" height="64px" className="rounded-full" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>AWS</h3>
                 </div> 
               </div>
             </div>

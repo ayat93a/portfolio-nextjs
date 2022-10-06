@@ -37,7 +37,7 @@ const Navbar = () => {
                 <Link href = "/#Projects">
                     <li className="my-4 ml-10 text-sm uppercase duration-300 ease-in border-b hover:border-b hover:scale-105"> Projects </li>
                 </Link>
-                <Link href = "https://drive.google.com/file/d/1Vv8nH3qeEmEe_rideBk1ztH5RCeqO7F3/view?usp=sharing" > 
+                <Link href = "https://drive.google.com/file/d/1XQEDs3y_wpkPh80kGBN0KoYIMz_IY8hV/view?usp=sharing" > 
                     <a target="_blank" rel="noreferrer">
                     <li className="my-4 ml-10 text-sm uppercase duration-300 ease-in border-b hover:border-b hover:scale-105"> Resume </li>    
                     </a>
